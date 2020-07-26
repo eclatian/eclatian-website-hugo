@@ -129,7 +129,7 @@ address = "1536, 39th Cross, 4th T Block Jayanagar, Bnagalore - 560041"
 mobile = "+91-9620065675"
 email = "info@ecatian.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/xdowyywk" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "UA-87318115-1" # your id
 # top header
