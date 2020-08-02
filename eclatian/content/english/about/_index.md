@@ -1,31 +1,27 @@
 ---
 title: "About Us"
-draft: false 
+draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
-image: "images/about/about-page.jpg"
+image: "images/about/about-page.png"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "We are small company with big dreams. Simplicity, Effective and Meaningful are few words we want to be known for. "
 ---
 
-## ABOUT OUR JOURNY
+## Foundation
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos.
+Evolution is the core of our belief. As long as, we can evolve, we can survive and we can win. In terms of infinite game, evolution is the super power one can have and we do have that super power. No matter what the situation calls for, we can evolve and continue playing the game.
 
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur
-adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti
-explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!
 
-### ABOUT Your JOURNY
+## Vision
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur,
-adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur,
-aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique.
-Et amet magni facilis vero corporis quos
+***At Eclatian, we believe in making meaningful improvements with simplicity, using technology.***
+
+Being meaningful is more important to us than anything else. Be it a discussion, application, solution, policy, product, or process, it's best when its meaningful.
+
+Next important factor to us is to keep simplicity along side the meaningfulness. We do not want to add complexity in anything. We want to make everything simple and elegant.
+
+
+## Mission
+We would upscale the dining experience by providing connected, up to date and contextual information which is relevant to the diners. We connect the hosts with the diners and provide secure information sharing platform so that the diners can be served better by the hosts. Our mission is to make the elevate the experience of dining across the board and make it delightful for the diners and beneficial for the hosts.
