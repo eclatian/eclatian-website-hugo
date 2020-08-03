@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://eclatian.com/"
 title = "Eclatian | Keep Evolving"
-theme = "educenter-hugo"
+theme = "eclatian-website-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
