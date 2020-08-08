@@ -58,7 +58,7 @@ banner_feature:
         Your earn, we earn model at very nomial charge."
 
     # feature item loop
-    - name : "No Maintinance"
+    - name : "Zero Maintinance"
       icon : "ti-settings" # icon pack : https://themify.me/themify-icons
       content : "Being fully cloud based solution, not only you don't need to worry about the software maintinance and upgrades but also
       you get best and latest always without being worried about anything."
@@ -73,16 +73,16 @@ banner_feature:
 ############################## about ##################################
 about:
   enable : true
-  title : "About FastServe"
-  image : "images/about/about-us.webp"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  title1 : "About FastServe"
+  image1 : "images/about/about-us.webp"
+  content1 : "FastServe is the code name for our Digital Cafeteria Platform. It connects food vendors with food consumers via a simple to use mobile based application. For food vendors, it's just one mobile app and one admin app. For food consumer, its just one mobile app. Our online payment, makes payment touchless and reaches the vendors as soon as the order is closed. We won't keep you on hold for 7 days."
+  title2 : "Bring your own vendors"
+  image2 : "images/about/vendors.webp"
+  content2 : "We help you get your existing cafeteria digitized. There is absolutely no change you need to do to get your it done. Let's hve the same vendors, same counter and we just change the way orders used to placed and payments were made. We make it less crowded and safer for you. You don't need to buy any hardware as well. All you need is a mobile with internet connection. And a laptop for few one time activities. Though we are changing that as well."
   button:
-    enable : false
-    label : "Learn more"
-    link : "about"
+    enable : true
+    label : "Contact Us"
+    link : "contact"
 
 
 ############################# Course ################################

@@ -57,29 +57,53 @@
 {{ end }}
 <!-- /banner-feature -->
 
-<!-- about us -->
+<!-- about FastServe -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
-
-
-      
-      {{ with .image }}
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">{{ .title1 | markdownify }}</h2>
+        <p>{{ .content1 | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ with .image1 }}
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
         <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
       </div>
       {{ end }}
+    </div>
+  </div>
+</section>
 
-
-
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-2">
+        <h2 class="section-title">{{ .title2 | markdownify }}</h2>
+       <p>{{ .content2 | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ with .image2 }}
+      <div class="col-md-6 order-1 order-md-1 mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /about us -->
+<!-- /about FastServe -->
 
 <!-- courses -->
 {{ if $data.homepage.course.enable }}
