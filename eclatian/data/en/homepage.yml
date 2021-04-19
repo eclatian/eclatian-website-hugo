@@ -6,7 +6,7 @@ slider:
     # slider item loop
     - title : "Safety is the current high priotiy concern."
       content : "Contactless, touchless and social distancing are the new terms we are getting familiar and comfortable with.
-      We can help you solve this problem at your cafeteria."
+      We can help you solve this problem at your restaurant, pub, bar or hotel."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -16,9 +16,9 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Convenience is also about simplicity."
-      content : "We give a simple and effective way to cater to the convenience of food ordering at your cafeteria. Make your
-      people feel the safety and convenience."
+    - title : "Simplicity at its best. No fuss solution!"
+      content : "We give a simple and effective way to give your guests a digital menu with live menu items. No app to be installed, 
+      no system to manage"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -29,7 +29,7 @@ slider:
 
     # slider item loop
     - title : "Digitization is the way of doing business."
-      content : "If you are a caterer/vendor, you focus on growing your business in this time of stress and leave the Digitization
+      content : "Keep your focus on growing your business in this time of stress and leave the Digitization
       on us. Just let us know what you want and we will make it for you."
       animation_in : "left"
       animation_out : "right"
@@ -52,33 +52,36 @@ banner_feature:
       as well or you can just run it using your mobile phone."
 
     # feature item loop
-    - name : "Pay On Sales Only"
+    - name : "Best Pricing"
       icon : "ti-money" # icon pack : https://themify.me/themify-icons
-      content : "Get your setup done for free. We all feel the current situation. We won't chrge anything unless you start earning -
-        Your earn, we earn model at very nomial charge."
+      content : "We understand that the time is difficult for F&B businesses. Hence we kept our pricing as low as possible, 
+       to make you ready to face the situation with confidence."
 
     # feature item loop
-    - name : "Zero Maintinance"
+    - name : "Zero Maintenance"
       icon : "ti-settings" # icon pack : https://themify.me/themify-icons
       content : "Being fully cloud based solution, not only you don't need to worry about the software maintinance and upgrades but also
       you get best and latest always without being worried about anything."
 
     # feature item loop
-    - name : "Business Intelligence"
+    - name : "Higher Satisfaction"
       icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
-      content : "We provide you the visibility of your business as per your need. With better visibility of your sales
-      you can make better decisions to improve your sales and grow your business."
+      content : "In the age of pandamic, make your customers feel cared about. Give them a touchless experience along with live menu to
+      get rid of disappointments of food unavailability."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title1 : "About FastServe"
+  title1 : "About Digital Menu"
   image1 : "images/about/about-us.webp"
-  content1 : "FastServe is the code name for our Digital Cafeteria Platform. It connects food vendors with food consumers via a simple to use mobile based application. For food vendors, it's just one mobile app and one admin app. For food consumer, its just one mobile app. Our online payment, makes payment touchless and reaches the vendors as soon as the order is closed. We won't keep you on hold for 7 days."
-  title2 : "Bring your own vendors"
+  content1 : "Digital Menu is simple service offered by Eclatian. We provide a QR code which reatsurant, pub, bar or hotel owners can
+  print as per their brand guildline in shape of tent card or sticker and place the same of tables. User can load the menu on their phone
+  by just scanning this QR code. There is no extra app is to be installed. This service can be best utilized to save printing cost and in
+  today's world, it can provide a touchless experience."
+  title2 : "Features"
   image2 : "images/about/vendors.webp"
-  content2 : "We help you get your existing cafeteria digitized. There is absolutely no change you need to do to get your it done. Let's hve the same vendors, same counter and we just change the way orders used to placed and payments were made. We make it less crowded and safer for you. You don't need to buy any hardware as well. All you need is a mobile with internet connection. And a laptop for few one time activities. Though we are changing that as well."
+  content2 : "Few modest features of our digital menu are:"
   button:
     enable : true
     label : "Contact Us"

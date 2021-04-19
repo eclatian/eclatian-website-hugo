@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = "https://eclatian.com/"
-title = "Eclatian | Keep Evolving"
+title = "Eclatian | Keep Evolving\u00AE"
 theme = "eclatian-website-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # desable language from here
 
@@ -47,7 +47,7 @@ link = "plugins/google-map/gmap.js"
 [[menu.main]]
 name = "About"
 URL = "about"
-weight = 1
+weight = 4
 
 #[[menu.main]]
 #name = "course"
@@ -88,6 +88,11 @@ weight = 1
 #name = "blog"
 #URL = "blog"
 #weight = 4
+
+[[menu.main]]
+name = "Sales"
+URL = "sales"
+weight = 3
 
 [[menu.main]]
 name = "Contact"
@@ -190,7 +195,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2021 Eclatian Technologies Private Limited"
 
 
 ################################### French language #####################################
@@ -201,4 +206,4 @@ copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefi
 #weight = 2
 #home = "Accueil"
 # copyright
-#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+#copyright = "Copyright &copy; 2021 Eclatian Technologies Private Limited"

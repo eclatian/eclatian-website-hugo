@@ -31,9 +31,9 @@
           <!-- logo -->
           <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
           <ul class="list-unstyled">
-            <li class="mb-4">{{ site.Params.address | markdownify }}</li>
-            <li class="mb-4">{{ site.Params.email | markdownify }}</li>
-            <li class="mb-4">{{ site.Params.mobile | markdownify }}</li>
+            <li class="mb-4"><span class="text-white">{{ site.Params.address | markdownify }}</span></li>
+            <li class="mb-4"><span class="text-white">{{ site.Params.email | markdownify }}</span></li>
+            <li class="mb-4"><span class="text-white">{{ site.Params.mobile | markdownify }}</span></li>
           </ul>
         </div>
         <!-- company -->
@@ -42,7 +42,7 @@
           <ul class="list-unstyled">
             {{ range site.Menus.main }}
             {{ if not .HasChildren }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            <li class="mb-3"><a class="text-white" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
             {{ end }}
             {{ end }}
           </ul>
@@ -82,7 +82,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">{{ site.Params.copyright | markdownify }}</p>
+          <p class="mb-0"><span class="text-white">{{ site.Params.copyright | markdownify }}</span></p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">

@@ -87,6 +87,18 @@
       <div class="col-md-6 order-2 order-md-2">
         <h2 class="section-title">{{ .title2 | markdownify }}</h2>
        <p>{{ .content2 | markdownify }}</p>
+       <div class="content">
+         <ul>
+          <li>Subscription per physical address</li>
+          <li>Unlimited locations per subscription</li>
+          <li>Multiple menus per location</li>
+          <li>Unlimited tables or rooms</li>
+          <li>Unlimited admin users</li>
+          <li>Availability update option</li>
+          <li>Live updates on the menu</li>
+           
+          </ul>
+        </div>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-primary-outline">{{ .label }}</a>
@@ -101,8 +113,29 @@
     </div>
   </div>
 </section>
+<!-- Self added content from About page -->
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      <div class="col-12  text-center">
+        
+          <h2>
+            <span class=" section-title text-white text-center" >At an yearly subscription of </span>
+            <span>&#8377; 999 only!</span>
+          </h2>
+          <!--h5 class="text-white">h5 content</h5-->
+          <a href="/contact" class="btn btn-secondary">Contact Us</a>
+      </div>
+      
+    </div>
+  </div>
+</section>
 {{ end }}
 {{ end }}
+
+
+
 <!-- /about FastServe -->
 
 <!-- courses -->
