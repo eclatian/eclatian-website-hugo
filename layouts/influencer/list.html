@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<!-- influencer -->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img class="img-fluid" src="{{ .Params.Image | relURL }}" alt="scholarship news">
+      </div>
+      <div class="col-md-6 content">
+        {{ .Content }}
+        <a href="/" class="btn btn-primary-outline">Register As Influencer</a>
+      </div>
+     
+    </div>
+    <div class="row">
+      <!-- scholarship item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-6 col-sm-6 mb-6">
+          <!-- I have no fucking clue why "scholarship works, while if I put "influencer", it wont work . 
+            But it reads the right files in the influencer folder somehow. 
+            And I am not going to understand this.-->
+        {{ .Render "scholarship" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /influencer -->
+
+{{ end }}

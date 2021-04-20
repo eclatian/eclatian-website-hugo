@@ -54,6 +54,11 @@ weight = 4
 #URL = "course"
 #weight = 2
 
+[[menu.main]]
+name = "Sales"
+weight = 3
+hasChildren = true
+
 #[[menu.main]]
 #weight = 3
 #name = "Pages"
@@ -90,9 +95,16 @@ weight = 4
 #weight = 4
 
 [[menu.main]]
-name = "Sales"
-URL = "sales"
-weight = 3
+parent = "Sales"
+name = "Influencer"
+URL = "influencer"
+
+
+[[menu.main]]
+parent = "Sales"
+name = "Partner"
+URL = "partner"
+
 
 [[menu.main]]
 name = "Contact"
