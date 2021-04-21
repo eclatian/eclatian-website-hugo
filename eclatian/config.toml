@@ -142,9 +142,9 @@ logo = "images/logo.png"
 description = "Officil website for Eclatian Technologies Pvt. Ltd."
 author = "Abhideep Chakravarty"
 # contact info
-address = "1536, 39th Cross, 4th T Block Jayanagar, Bnagalore - 560041"
+address = "1536, 39th Cross, 4th T Block Jayanagar, Bangalore - 560041"
 mobile = "+91-9620065675"
-email = "info@ecatian.com"
+email = "info@eclatian.com"
 # contact form action
 contact_form_action = "https://formspree.io/xdowyywk" # contact form works with https://formspree.io
 # Google Analitycs

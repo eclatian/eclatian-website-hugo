@@ -48,7 +48,7 @@ banner_feature:
     # feature item loop
     - name : "No New Hardware"
       icon : "ti-harddrives" # icon pack : https://themify.me/themify-icons
-      content : "Our solution does not force you to buy any extra hardware. It can run in parallel to you existing software
+      content : "Our solution does not force you to buy any extra hardware. It can run in parallel to your existing software
       as well or you can just run it using your mobile phone."
 
     # feature item loop
@@ -60,7 +60,7 @@ banner_feature:
     # feature item loop
     - name : "Zero Maintenance"
       icon : "ti-settings" # icon pack : https://themify.me/themify-icons
-      content : "Being fully cloud based solution, not only you don't need to worry about the software maintinance and upgrades but also
+      content : "Being fully cloud based solution, not only you don't need to worry about the software maintenance and upgrades but also
       you get best and latest always without being worried about anything."
 
     # feature item loop
@@ -75,8 +75,8 @@ about:
   enable : true
   title1 : "About Digital Menu"
   image1 : "images/about/about-us.webp"
-  content1 : "Digital Menu is simple and very first service offered by Eclatian. We provide a QR code which reatsurant, pub, bar or hotel owners can
-  print as per their brand guildline in shape of tent card or sticker and place the same of tables. User can load the menu on their phone
+  content1 : "Digital Menu is simple and very first service offered by Eclatian. We provide a QR code which restaurant, pub, bar or hotel owners can
+  print as per their brand guildline in shape of tent card or sticker and place the same on tables. User can load the menu on their phone
   by just scanning this QR code. There is no extra app is to be installed. This service can be best utilized to save printing cost and in
   today's world, it can provide a touchless experience."
   title2 : "Features"
