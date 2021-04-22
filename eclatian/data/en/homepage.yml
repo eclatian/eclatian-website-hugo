@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-1.webp"
   slider_item:
     # slider item loop
-    - title : "Save around 20+% on your menu printing."
+    - title : "Save around 50+% on your menu printing."
       content : "Printing a menu is an expensive part. Reprinting on price changes or small modifications can make your expense go
        even higher. Switch to Digital Menu reduce your expense."
       animation_in : "left"
