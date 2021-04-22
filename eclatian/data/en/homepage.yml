@@ -4,9 +4,9 @@ slider:
   bg_image : "images/banner/banner-1.webp"
   slider_item:
     # slider item loop
-    - title : "Safety is the current high priotiy concern."
-      content : "Contactless, touchless and social distancing are the new terms we are getting familiar and comfortable with.
-      We can help you solve this problem at your restaurant, pub, bar or hotel."
+    - title : "Save around 20+% on your menu printing."
+      content : "Printing a menu is an expensive part. Reprinting on price changes or small modifications can make your expense go
+       even higher. Switch to Digital Menu reduce your expense."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -16,9 +16,9 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Simplicity at its best. No fuss solution!"
-      content : "We give a simple and effective way to give your guests a digital menu with live menu items. No app to be installed, 
-      no system to manage"
+    - title : "Avoid embarrassments & disappointments."
+      content : "Don't let the unavailable items show up on menu. Never be embarrassed by saying - **_This item is not available_**.
+      Never disappoint your guests anyore!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -28,9 +28,9 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Digitization is the way of doing business."
-      content : "Keep your focus on growing your business in this time of stress and leave the Digitization
-      on us. Just let us know what you want and we will make it for you."
+    - title : "Menu for eveyone! Instantly!!"
+      content : "**_Not enough menus!!_** This will be part of your history. A digital menu can be loaded on each and everyone's
+      phone. Now no one needs to wait for it."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -66,7 +66,7 @@ banner_feature:
     # feature item loop
     - name : "Higher Satisfaction"
       icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
-      content : "In the age of pandamic, make your customers feel cared about. Give them a touchless experience along with live menu to
+      content : "In the age of pandemic, make your customers feel cared about. Give them a touchless experience along with live menu to
       get rid of disappointments of food unavailability."
 
 
