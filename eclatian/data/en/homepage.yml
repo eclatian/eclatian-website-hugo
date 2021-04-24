@@ -28,7 +28,7 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Menu for eveyone! Instantly!!"
+    - title : "Digital menu for eveyone! Instantly!!"
       content : "**_Not enough menus!!_** This will be part of your history. A digital menu can be loaded on each and everyone's
       phone. Now no one needs to wait for it."
       animation_in : "left"
