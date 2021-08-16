@@ -11,8 +11,8 @@ image: "images/influencer/direct-influence.webp"
 
 If you have enough influence on restaurants, hotels, pubs or bars, then you can influence them to use our Digital Menu service. You can help them getting the service at lower price than regular. Just ensure that they use your influencer id.
 
-* Register as influencer & your influencer code
+* Register as influencer & get your influencer code
 * Create influencing post & tag us the post
 * Influence to visit our site and buy the service
 * Influencees, if use your influencer code, get 20% discount
-* On every sales made by them, your earn &#8377; 300
+* ..and you earn &#8377; 300
