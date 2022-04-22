@@ -53,7 +53,7 @@
                   </div>
                 </li>
               {{ else }}
-              {{ if ne .Name "Privacy Policy"}}
+              {{ if and (ne .Name "Privacy Policy") (ne .Name "Terms & Conditions") (ne .Name "Refund Policy")}}
                 <li class="nav-item">
                   <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
                 </li>

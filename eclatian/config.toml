@@ -109,12 +109,22 @@ URL = "partner"
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 8
 
 [[menu.main]]
 name = "Privacy Policy"
 URL = "privacy"
 weight = 5
+
+[[menu.main]]
+name = "Terms & Conditions"
+URL = "tnc"
+weight = 6
+
+[[menu.main]]
+name = "Refund Policy"
+URL = "refund"
+weight = 7
 
 # footer menu
 
