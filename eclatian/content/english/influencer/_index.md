@@ -1,12 +1,15 @@
 ---
 title: "Influencer"
 draft: false
+date: 2019-07-06T15:27:17+06:00
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/influencer/top-image.webp"
 # meta description
 description : "An influencers like you, can uniquely contribute in our growth while get benefitted, by partnering with us. Let's grow togther!"
+# type
+type: "sales"
 ---
 
 ## Monetize your influence

@@ -1,5 +1,5 @@
-- id: read_more
-  translation: Read More
+- id: know_more
+  translation: Know More
 
 - id: contact_form
   translation: Contact Form
@@ -24,6 +24,24 @@
 
 - id: categories
   translation: Categories
+
+- id: sales
+  translation: Sales
+
+- id: benefits
+  translation: Benefits
+
+- id: pricing
+  translation: Pricing
+
+- id: startup-offer
+  translation: Startup Offer
+
+- id: watch
+  translation: "Watch Detailed Video"
+
+- id: products
+  translation: Products
 
 - id: tags
   translation: Tags

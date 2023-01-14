@@ -57,7 +57,7 @@
 {{ end }}
 <!-- /banner-feature -->
 
-<!-- about FastServe -->
+<!-- about Sito -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section class="section">
@@ -81,7 +81,7 @@
   </div>
 </section>
 
-<section class="section">
+<!--section class="section">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-2">
@@ -112,67 +112,55 @@
       {{ end }}
     </div>
   </div>
-</section>
+</section-->
 <!-- Self added content from About page -->
-<section class="section-sm bg-primary">
+<!--section class="section-sm bg-primary">
   <div class="container">
     <div class="row">
-      <!-- funfacts item -->
-      <div class="col-12  text-center">
-        
-        <h2>
-          <span class=" section-title text-white text-center" >One year subscription at </span>
-          <span>&#8377; 1999 only!</span>
-        </h2>
-        <h2>
-          <span class=" section-title text-white text-center" >and two years subscription at </span>
-          <span>&#8377; 3499 only!</span>
-        </h2>
-        <!--h5 class="text-white">h5 content</h5-->
-          <a href="/contact" class="btn btn-secondary">Contact Us</a>
-      </div>
+      
       
     </div>
   </div>
-</section>
+</section-->
 {{ end }}
 {{ end }}
 
 
 
-<!-- /about FastServe -->
+<!-- /about Sito -->
 
-<!-- courses -->
-{{ if $data.homepage.course.enable }}
+<!-- courses = products -->
+{{ if $data.homepage.products.enable }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.products.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          <div>
+          <!--div>
             <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
-          </div>
+          </div-->
         </div>
       </div>
     </div>
     <!-- course list -->
     <div class="row justify-content-center">
       <!-- course item -->
-      {{ range first 6 (where site.RegularPages "Type" "course")}}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
-      </div>
-      {{ end }}
+      {{ $products := (where site.RegularPages "Type" "product")}}
+        {{ range first 2 ($products.ByParam "seq")}}
+        <div class="col-lg-4 col-sm-6 mb-5">
+          {{ .Render "product" }}
+        </div>
+        {{ end }}
     </div>
     <!-- /course list -->
     <!-- mobile see all button -->
-    <div class="row">
+    <!--div class="row">
       <div class="col-12 text-center">
         <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
-    </div>
+    </div-->
   </div>
 </section>
 {{ end }}

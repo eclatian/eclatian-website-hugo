@@ -7,6 +7,8 @@ bg_image: "images/backgrounds/page-title.jpg"
 image: "images/partner/top-image.webp"
 # meta description
 description : "An ambitious and driven person like you can make a lot of difference. If you can spend few hours in a week, it can be great boost for us. Are you game?"
+# type
+type: "sales"
 ---
 
 ## Sales Partner Program

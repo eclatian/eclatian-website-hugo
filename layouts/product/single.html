@@ -1,0 +1,155 @@
+{{ define "main" }}
+
+<!-- brief -->
+{{ range (where site.RegularPages "Type" .Params.brief)}}
+  {{ .Render "brief" }}
+{{ end }}
+<!-- /brief -->
+<!-- section -->
+<section class="section-sm">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ i18n "benefits" }}</h2>
+
+
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <!--div>
+            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div-->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- benefit list -->
+        <div class="row justify-content-center">
+          <!-- course item -->
+          {{ $benefits := (where site.RegularPages "Type" .Params.benefits)}}
+          {{ range $benefits.ByParam "seq" }}
+          <div class="col-lg-4 col-sm-6 mb-5">
+            {{ .Render "benefit" }}
+          </div>
+          {{ end }}
+        </div>
+        <!--div class="col-12 mb-4">
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+          class="img-fluid w-100">
+      </div>
+    </div-->
+        <!-- course info -->
+        <!--div class="row align-items-center mb-5">
+      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <h2>{{ .Title }}</h2>
+      </div>
+      <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "duration" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Duration }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-timer text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "weekly" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Weekly }}</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ i18n "fee" | upper }}</h6>
+                <p class="mb-0">{{ .Params.Fee }}</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+      </div-->
+        <!-- border -->
+        <!--div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div-->
+      </div>
+    </div>
+
+
+    <!--Pricing-->
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ i18n "pricing" }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <!--div>
+            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div-->
+        </div>
+      </div>
+    </div>
+    <!-- Price List -->
+
+    <div class="container">
+      <div class="row">
+        <!-- scholarship item -->
+        {{ $priceList := (where site.RegularPages "Type" .Params.pricing) }}
+        {{ range $priceList.ByParam "seq"}}
+        <div class="col-lg-4 col-sm-6 mb-4">
+          {{ .Render "pricing" }}
+        </div>
+
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- /Price List -->
+    <!--  /Pricing -->
+
+    <!-- course details -->
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ i18n "startup-offer" }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <!--div>
+            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div-->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="/contact" class="btn btn-primary">Let's Talk</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- cta -->
+
+<!-- /cta -->
+<!-- /section -->
+
+
+
+{{ end }}

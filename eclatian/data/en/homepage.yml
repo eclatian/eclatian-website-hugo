@@ -17,8 +17,7 @@ slider:
 
     # slider item loop
     - title : "Avoid embarrassments & disappointments."
-      content : "Don't let the unavailable items show up on menu. Never be embarrassed by saying - **_This item is not available_**.
-      Never disappoint your guests anyore!"
+      content : "Don't let the unavailable items show up on menu. Never be embarrassed by saying - **_This item is not available_**. Never disappoint your guests anyore!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -29,8 +28,7 @@ slider:
 
     # slider item loop
     - title : "Digital menu for eveyone! Instantly!!"
-      content : "**_Not enough menus!!_** This will be part of your history. A digital menu can be loaded on each and everyone's
-      phone. Now no one needs to wait for it."
+      content : "**_Not enough menus!!_** This will be part of your history. A digital menu can be loaded on each and everyone's phone. Now no one needs to wait for it."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -48,50 +46,44 @@ banner_feature:
     # feature item loop
     - name : "No New Hardware"
       icon : "ti-harddrives" # icon pack : https://themify.me/themify-icons
-      content : "Our solution does not force you to buy any extra hardware. It can run in parallel to your existing software
-      as well or you can just run it using your mobile phone."
+      content : "Hop on with us, you won't need any extra hardware for using our system."
 
     # feature item loop
-    - name : "Best Pricing"
+    - name : "Best In Class Pricing"
       icon : "ti-money" # icon pack : https://themify.me/themify-icons
-      content : "We understand that the time is difficult for F&B businesses. Hence we kept our pricing as low as possible, 
-       to make you ready to face the situation with confidence."
+      content : "We kept our pricing as low as possible, to make technology an enabler, not a burden."
 
     # feature item loop
     - name : "Zero Maintenance"
       icon : "ti-settings" # icon pack : https://themify.me/themify-icons
-      content : "Being fully cloud based solution, not only you don't need to worry about the software maintenance and upgrades but also
-      you get best and latest always without being worried about anything."
+      content : "Its SaaS! You don't manage & maintain it, we do. We kept it 99.99% available till now."
 
     # feature item loop
     - name : "Higher Satisfaction"
       icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
-      content : "In the age of pandemic, make your customers feel cared about. Give them a touchless experience along with live menu to
-      get rid of disappointments of food unavailability."
+      content : "Built to add value, to you and to your customers. They happy -> You Happy!"
 
 
 ############################## about ##################################
 about:
   enable : true
-  title1 : "About Digital Menu"
+  title1 : "Sito Platform"
   image1 : "images/about/about-us-compressed.jpg"
-  content1 : "Digital Menu is simple and very first service offered by Eclatian. We provide a QR code which restaurant, pub, bar or hotel owners can
-  print as per their brand guildline in shape of tent card or sticker and place the same on tables. User can load the menu on their phone
-  by just scanning this QR code. There is no extra app to be installed. This service can be best utilized to save printing cost and in
-  today's world, it can provide a touchless experience."
-  title2 : "Features"
-  image2 : "images/about/features.webp"
-  content2 : "Few modest features of our digital menu are:"
-  button:
-    enable : true
-    label : "Contact Us"
-    link : "contact"
+  content1 : "Sito is our cloud-based SaaS platform for hospitality and FnB domain which makes it easy for you to redefine your customer experience and provide real-time and relevant information to make your business more efficient. We help you reduce your capex and opex by bringing quality software into your organization faster than ever before, so you can focus on what really matters: make your customer feel good and server them best food."
+
+  
 
 
 ############################# Course ################################
 course:
   enable : false
-  title : "Our Course"
+  title : "Sito Products"
+  # course item comes from "content/**/course" folder.
+
+############################# Course ################################
+products:
+  enable : true
+  title : "Sito Products"
   # course item comes from "content/**/course" folder.
 
 ########################## Call to action ############################
@@ -106,17 +98,13 @@ cta:
 
 
 ######################## Success story #############################
-#success_story:
-#  enable : false
-#  bg_image : "images/backgrounds/success-story.jpg"
-#  title : "Success Stories"
-#  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-
-
-#  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-#  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+success_story:
+  enable : false
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "Future Digital Menu, Now!!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
-#  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
 
 
 ############################# event ################################

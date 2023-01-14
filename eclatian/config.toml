@@ -47,7 +47,7 @@ link = "plugins/google-map/gmap.js"
 [[menu.main]]
 name = "About"
 URL = "about"
-weight = 4
+weight = 5
 
 #[[menu.main]]
 #name = "course"
@@ -59,15 +59,20 @@ name = "Sales"
 weight = 3
 hasChildren = true
 
-#[[menu.main]]
-#weight = 3
-#name = "Pages"
-#hasChildren = true
+[[menu.main]]
+weight = 4
+name = "Products"
+hasChildren = true
 
-#  [[menu.main]]
-#  parent = "Pages"
-#  name = "teacher"
-#  URL = "teacher"
+[[menu.main]]
+parent = "Products"
+name = "Digital Menu"
+URL = "products/digital-menu"
+
+[[menu.main]]
+parent = "Products"
+name = "Scan Pay Order"
+URL = "products/spo"
 
 #  [[menu.main]]
 #  parent = "Pages"
@@ -162,7 +167,7 @@ email = "info@eclatian.com"
 # contact form action
 contact_form_action = "https://formspree.io/xdowyywk" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "UA-87318115-1" # your id
+google_analitycs_id = "G-WP4TW6P6S5" # your id
 # top header
 top_header = true
 # robot

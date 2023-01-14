@@ -1,0 +1,19 @@
+<div class="card p-0 border-primary rounded-0 hover-shadow">
+  <!--img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}"-->
+  <div class="card-body">
+    <h4 class="card-title mb-3">{{ .Title }}</h4>
+    <div class="content">{{ .Content }}</div>
+  </div>
+  <!--
+  {{ $data := index site.Data site.Language.Lang }}
+  {{ with $data.homepage.success_story }}
+  <div class="col-12 text-center">
+    <h4 class="mb-0 text-nowrap mr-3">{{ i18n "watch" }}</h2>
+    <a class="play-btn venobox" href="{{ .video_link | safeURL }}" data-vbtype="video">
+      <i class="ti-control-play"></i>
+    </a>
+  </div>
+  {{ end }}
+-->
+  <br/>
+</div>

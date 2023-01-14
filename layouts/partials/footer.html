@@ -48,23 +48,25 @@
           </ul>
         </div>
         <!-- links -->
+        <!--Need help in this onc.-->
         <!--div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "links" }}</h4>
+          <h4 class="text-white mb-5 text-uppercase">{{ i18n "sales" }}</h4>
           <ul class="list-unstyled">
-            {{ range site.Menus.footer }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            {{ range first 5 (where .Data.Pages "Type" "sales")}}
+            <li class="mb-3"><a class="text-white" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
         </div-->
         <!-- support -->
-        <!--div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
-          <h4 class="text-white mb-5 text-uppercase">{{ i18n "courses" }}</h4>
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">{{ i18n "products" }}</h4>
           <ul class="list-unstyled">
-            {{ range first 5 (where site.RegularPages "Type" "course")}}
-            <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}
+            {{ $products := (where site.RegularPages "Type" "product")}}
+              {{ range first 2 ($products.ByParam "seq")}}
+              <li class="mb-3"><a class="text-white" href="{{ .Permalink }}">{{ .Title }}</a></li>
+              {{ end }}
           </ul>
-        </div-->
+        </div>
         <!-- support -->
         <!--div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "new_notice" }}</h4>
