@@ -16,7 +16,7 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Avoid embarrassments & disappointments."
+    - title : "Avoid despair."
       content : "Don't let the unavailable items show up on menu. Never be embarrassed by saying - **_This item is not available_**. Never disappoint your guests anyore!"
       animation_in : "left"
       animation_out : "right"
