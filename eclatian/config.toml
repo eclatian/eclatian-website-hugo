@@ -230,6 +230,11 @@ home = "Home"
 # copyright
 copyright = "Copyright &copy; 2022 Eclatian Technologies Private Limited"
 
+########################### Sitemap ##################################
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
 ################################### French language #####################################
 #[Languages.fr]
