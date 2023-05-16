@@ -47,7 +47,7 @@ link = "plugins/google-map/gmap.js"
 [[menu.main]]
 name = "About"
 URL = "about"
-weight = 5
+weight = 6
 
 # main menu
 [[menu.main]]
@@ -100,10 +100,10 @@ URL = "products/spo"
 #  name = "research"
 #  URL = "research"
 
-#[[menu.main]]
-#name = "blog"
-#URL = "blog"
-#weight = 4
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
 
 [[menu.main]]
 parent = "Sales"
