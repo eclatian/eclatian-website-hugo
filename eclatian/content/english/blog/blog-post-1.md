@@ -9,7 +9,7 @@ description : "Exposing the Drawbacks of Physical Menus: Uncover the Challenges 
 # post thumbnail
 image: "images/blog/blog-image1.jpg"
 # post author
-author: "John Doe"
+author: "Menu Superhero"
 # taxonomy
 categories: ["Digital Menu"]
 tags: ["PhysicalMenus", "DiningExperience", "MenuDrawbacks", "RestaurantChallenges", "HumorousDining", "TurnaroundTime", "LanguageBarriers", "StickyMenus", "MenuTransformation"]
