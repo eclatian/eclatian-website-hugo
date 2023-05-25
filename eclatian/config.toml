@@ -234,7 +234,8 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2022 Eclatian Technologies Private Limited"
+copyright1 = "Copyright &copy; "
+copyright2 = " Eclatian Technologies Private Limited"
 
 ########################### Sitemap ##################################
 [sitemap]

@@ -85,7 +85,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-1"><span class="text-white">{{ site.Params.copyright | markdownify }}</span>
+          <p class="mb-1">
+            <span class="text-white">{{ site.Params.copyright1 | markdownify }}</span>
+            <span class="text-white" id="currentYear"></span>
+            <span class="text-white">{{ site.Params.copyright2 | markdownify }}</span>
           <!--Put the next hyper link at some distance-->
           
          
@@ -102,6 +105,18 @@
     </div>
   </div>
 </footer>
+<script>
+  // Get the current year
+  var currentYear = new Date().getFullYear();
+
+  // Update the span element with the current year
+  function updateYear() {
+      document.getElementById("currentYear").textContent = currentYear;
+  }
+
+  // Call the function when the page loads
+  window.onload = updateYear;
+</script>
 <!-- /footer -->
 
 {{ "<!-- Google Map API -->" | safeHTML }}
