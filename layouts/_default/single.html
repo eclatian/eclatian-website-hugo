@@ -1,5 +1,69 @@
 {{ define "main" }}
 
+<style>
+  .audio-control {
+    margin-bottom: 10px;
+  }
+</style>
+
+<script>
+  
+  var utterance = null;
+  // Function to handle text-to-speech functionality
+  function loadSpeech() {
+    console.log("Is this heppening !!!!!");
+    var text = document.getElementById("blog-content").innerText;
+
+    // Create a new SpeechSynthesisUtterance
+    utterance = new SpeechSynthesisUtterance(text);
+
+    // Set the voice, pitch, rate, and volume (optional)
+    // utterance.voice = ...;
+    // utterance.pitch = ...;
+    // utterance.rate = ...;
+    // utterance.volume = ...;
+
+    // Assign the utterance to the audio player
+    //var audioPlayer = document.querySelector('#audio-player');
+    /*var audioPlayer = document.createElement('audio');
+    audioPlayer.setAttribute('controls', 'controls');
+    audioPlayer.setAttribute('id', 'audio-player');
+    audioPlayer.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
+    audioPlayer.setAttribute('type', 'text/plain');
+    
+    var audioContainer = document.querySelector('#audioHolder');
+    audioContainer.appendChild(audioPlayer);*/
+
+    // Assign the utterance to the audio player
+    var audioPlayer = document.querySelector('#audio-player');
+    audioPlayer.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
+
+      
+    
+    
+    // Create a new source element
+    //var sourceElement = document.createElement('source');
+    
+    // Set the source file and type
+   // sourceElement.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
+    //sourceElement.type =  'text/plain';
+
+    // Append the source element to the audio player
+    //audioPlayer.appendChild(sourceElement);
+
+    // Initiate speech synthesis
+    //speechSynthesis.speak(utterance);
+    
+  }
+  
+
+  //document.addEventListener('DOMContentLoaded', speakText);
+  //document.onload = loadSpeech;
+  // Add event listener to the audio control button
+  
+</script>
+
+
 <!-- blog details -->
 <section class="section-sm">
   <div class="container">
@@ -11,14 +75,17 @@
           </div>
           <div class="col-12">
             <ul class="list-inline">
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}
-                  :</span><a
-                  href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n
+                  "posted_by" }}
+                  :</span><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title
+                  }}</a></li>
 
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n
+                  "date" }}
                   :</span>{{ .PublishDate.Format "02 Jan, 2006" }}</li>
 
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "category" }}
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n
+                  "category" }}
                   :</span>{{ range $index, $elements:= .Params.Categories }}<a
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
                   {{ . | title }}</a> {{ end}}</li>
