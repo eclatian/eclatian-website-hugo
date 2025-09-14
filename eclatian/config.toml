@@ -1,9 +1,11 @@
 ######################## default configuration ####################
+# default configuration
 baseURL = "https://eclatian.com/"
-title = "Eclatian | Keep Evolving\u00AE"
+title = "Eclatian | Keep Evolving\u00ae"
 theme = "eclatian-website-hugo"
-# post pagination
-paginate = "6"
+# post pagination (updated for Hugo >=0.128)
+[pagination]
+  pagerSize = 6
 # post excerpt
 summaryLength = "10"
 # disqus short name
@@ -72,7 +74,7 @@ hasChildren = true
 
 [[menu.main]]
 parent = "Products"
-name = "Digital Menu"
+name = "Digital Catalogue"
 URL = "products/digital-menu"
 
 [[menu.main]]
@@ -164,7 +166,7 @@ URL = "research"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Digital menu & take away service for your restaurant, pub, bar or hotel."
+description = "Digital catalogue & take away service for your restaurant, pub, bar or hotel."
 author = "Abhideep Chakravarty"
 # contact info
 address = "1536, 39th Cross, 4th T Block Jayanagar, Bangalore - 560041"

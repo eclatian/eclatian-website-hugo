@@ -9,7 +9,7 @@ image: "images/influencer/direct-influence.webp"
 #description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---
 
-If you have enough influence on restaurants, hotels, pubs or bars, then you can influence them to use our Digital Menu service. You can help them getting the service at lower price than regular. Just ensure that they use your influencer id.
+If you have enough influence on restaurants, hotels, pubs or bars, then you can influence them to use our Digital Catalogue service. You can help them getting the service at lower price than regular. Just ensure that they use your influencer id.
 
 * Register as influencer & get your referral code
 * Create influencing post & tag us the post

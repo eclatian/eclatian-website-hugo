@@ -1,5 +1,5 @@
 ---
-title: "Professional @ ₹ 1999/year"
+title: "Professional @ ₹ 2999/year"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -24,4 +24,3 @@ For high standard restaurants and hotels
 * Review links
 * Social Links
 * 1 free data upload per year
-* Extra data uploads ₹199/upload

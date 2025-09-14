@@ -5,13 +5,13 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Unveiling the Challenges of Today's Menu with Regular Digital Menus, and how Eclatian's Digital Menu Solution revolutionizes the experience with real-time updates, captivating visuals, and chef's creativity."
+description : "Unveiling the Challenges of Today's Menu with Regular Digital Menus, and how Eclatian's Digital Catalogue Solution revolutionizes the experience with real-time updates, captivating visuals, and chef's creativity."
 # post thumbnail
 image: "images/blog/todays-menu.jpg"
 # post author
 author: "Menu Superhero"
 # taxonomy
-categories: ["Digital Menu"]
+categories: ["Digital Catalogue"]
 tags: ["Today'sMenuChallenges", "RegularDigitalMenus", "DigitalMenuLimitations", "EclatiansDigitalMenuSolution", "RealTimeUpdates", "CaptivatingVisuals", "ChefsCreativity", "EnhancedDiningExperience"]
 # type
 type: "post"

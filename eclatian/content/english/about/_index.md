@@ -24,4 +24,4 @@ We also envision to touch upon social aspect of food. We want to give back to so
 
 
 ## Mission
-Our mission is to implement *UNDERSTAND-SOLVE-SCALE-REPEAT" methedology to address the problems in hand in plan. We have done it for Digital Menu and Scan-Pay-Order till now. We would revolutionize the food industry by providing innovative and intuitive software solutions that streamline operations, enhance efficiency, and improve customer experiences. We believe that technology has the power to transform the way we produce, distribute, and consume food, and we are dedicated to empowering businesses to thrive in the digital age.
+Our mission is to implement *UNDERSTAND-SOLVE-SCALE-REPEAT" methedology to address the problems in hand in plan. We have done it for Digital Catalogue and Scan-Pay-Order till now. We would revolutionize the food industry by providing innovative and intuitive software solutions that streamline operations, enhance efficiency, and improve customer experiences. We believe that technology has the power to transform the way we produce, distribute, and consume food, and we are dedicated to empowering businesses to thrive in the digital age.

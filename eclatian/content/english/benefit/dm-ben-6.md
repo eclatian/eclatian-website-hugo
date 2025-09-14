@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Pinching in and out on a publically shared PDF over some drive & some times with Google ads, hampers your brand persona. Your brand is your pride. Try our real digital menu, not a PDF!"
+description : "Pinching in and out on a publically shared PDF over some drive & some times with Google ads, hampers your brand persona. Your brand is your pride. Try our real digital catalogue, not a PDF!"
 # course thumbnail
 image: "images/courses/course-5.jpg"
 # taxonomy

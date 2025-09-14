@@ -1,5 +1,5 @@
 ---
-title: "Premium @ ₹ 2999/year"
+title: "Premium @ ₹ 4999/year"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
@@ -19,4 +19,3 @@ For premium restaurants and hotels, who wants that extra edge
 * Showcase pages
 * Multi location inter-connect
 * 3 free data upload per year
-* Extra data uploads ₹99/upload

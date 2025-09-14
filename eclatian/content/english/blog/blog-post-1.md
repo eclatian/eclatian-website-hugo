@@ -11,7 +11,7 @@ image: "images/blog/blog-image1.jpg"
 # post author
 author: "Menu Superhero"
 # taxonomy
-categories: ["Digital Menu"]
+categories: ["Digital Catalogue"]
 tags: ["PhysicalMenus", "DiningExperience", "MenuDrawbacks", "RestaurantChallenges", "HumorousDining", "TurnaroundTime", "LanguageBarriers", "StickyMenus", "MenuTransformation"]
 # type
 type: "post"

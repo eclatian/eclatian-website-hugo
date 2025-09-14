@@ -6,7 +6,7 @@ slider:
     # slider item loop
     - title : "Save around 50+% on your menu printing."
       content : "Printing a menu is an expensive part. Reprinting on price changes or small modifications can make your expense go
-       even higher. Switch to Digital Menu reduce your expense."
+       even higher. Switch to Digital Catalogue reduce your expense."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -27,8 +27,8 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Digital menu for eveyone! Instantly!!"
-      content : "**_Not enough menus!!_** This will be part of your history. A digital menu can be loaded on each and everyone's phone. Now no one needs to wait for it."
+    - title : "Digital catalogue for eveyone! Instantly!!"
+      content : "**_Not enough menus!!_** This will be part of your history. A digital catalogue can be loaded on each and everyone's phone. Now no one needs to wait for it."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -101,7 +101,7 @@ cta:
 success_story:
   enable : false
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Future Digital Menu, Now!!"
+  title : "Future Digital Catalogue, Now!!"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"

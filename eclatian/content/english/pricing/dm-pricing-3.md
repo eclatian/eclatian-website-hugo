@@ -24,6 +24,5 @@ For restaurants, coffee shops, food truck, small eateries, etc.
 * Mobile app
 * Unlimited menu updates
 * Free initial data upload
-* Extra data uploads ₹199/upload
 
 

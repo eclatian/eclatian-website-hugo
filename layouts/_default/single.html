@@ -7,7 +7,7 @@
 </style>
 
 <script>
-  
+
   var utterance = null;
   // Function to handle text-to-speech functionality
   function loadSpeech() {
@@ -38,14 +38,14 @@
     var audioPlayer = document.querySelector('#audio-player');
     audioPlayer.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
 
-      
-    
-    
+
+
+
     // Create a new source element
     //var sourceElement = document.createElement('source');
-    
+
     // Set the source file and type
-   // sourceElement.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
+    // sourceElement.src = URL.createObjectURL(new Blob([text], { type: 'text/plain' }));
     //sourceElement.type =  'text/plain';
 
     // Append the source element to the audio player
@@ -53,14 +53,14 @@
 
     // Initiate speech synthesis
     //speechSynthesis.speak(utterance);
-    
+
   }
-  
+
 
   //document.addEventListener('DOMContentLoaded', speakText);
   //document.onload = loadSpeech;
   // Add event listener to the audio control button
-  
+
 </script>
 
 
@@ -101,7 +101,7 @@
             {{ .Content }}
           </div>
           <!-- comments -->
-          {{ if site.DisqusShortname }}
+          {{ with .Site.Params.disqusShortname }}
           <div class="col-12">
             {{ template "_internal/disqus.html" . }}
           </div>
